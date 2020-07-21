@@ -1,0 +1,24 @@
+About hangman
+-------------
+
+The game consists on trying to predict an initially unknown word, letter by letter.
+In this game there are two roles: guesser and moderator.
+Turns alternate between the two.
+
+Guesser
+-------
+
+When guessing one letter, all the occurrences of this letter must be revealed.
+If a guessed letter is not present in the word, one member of the hangman is added to the picture.
+
+Moderator
+---------
+
+The moderator chooses the word to be guessed.
+It is also the one responsible for validating the guesses and managing the hangman picture.
+
+Endgame
+-------
+
+If all the members of the hangman are in place, the guessers lose.
+If the word was correctly guessed, the guessers win.
