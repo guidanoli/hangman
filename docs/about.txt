@@ -3,7 +3,6 @@ About hangman
 
 The game consists on trying to predict an initially unknown word, letter by letter.
 In this game there are two roles: guesser and moderator.
-Turns alternate between the two.
 
 Guesser
 -------
